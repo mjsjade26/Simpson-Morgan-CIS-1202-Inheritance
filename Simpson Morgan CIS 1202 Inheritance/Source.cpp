@@ -16,7 +16,7 @@ int main() {
     // Vehicle
     std::cout << "Vehicle:\n";
     std::cout << "Enter the manufacturer: ";
-    std::getline(std::cin >> std::ws, manufacturer); // Read entire line for manufacturer
+    std::getline(std::cin >> std::ws, manufacturer); 
     std::cout << "Enter the year built: ";
     std::cin >> yearBuilt;
     Vehicle vehicle(manufacturer, yearBuilt);
@@ -29,7 +29,7 @@ int main() {
     // Car
     std::cout << "Car:\n";
     std::cout << "Enter the manufacturer: ";
-    std::getline(std::cin >> std::ws, manufacturer); // Read entire line for manufacturer
+    std::getline(std::cin >> std::ws, manufacturer);
     std::cout << "Enter the year built: ";
     std::cin >> yearBuilt;
     std::cout << "Enter the number of doors: ";
@@ -44,7 +44,7 @@ int main() {
     // Truck
     std::cout << "Truck:\n";
     std::cout << "Enter the manufacturer: ";
-    std::getline(std::cin >> std::ws, manufacturer); // Read entire line for manufacturer
+    std::getline(std::cin >> std::ws, manufacturer); 
     std::cout << "Enter the year built: ";
     std::cin >> yearBuilt;
     std::cout << "Enter the towing capacity: ";
